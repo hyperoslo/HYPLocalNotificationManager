@@ -22,3 +22,7 @@ Adding a notification has never been easier.
                                                                 alarmID:message];
 }
 ```
+Contributions
+=============
+
+If there's something you would like to improve please create a friendly and constructive issue, getting your feedback would be awesome. Have a great day.
