@@ -66,7 +66,11 @@ static NSString * const ANDYCellIdentifier = @"ANDYCellIdentifier";
     NSString *message = [NSString stringWithFormat:@"%ld seconds", (long)seconds];
     NSString *actionTitle = @"The best alarm ever just finished!";
 
-    [HYPLocalNotificationManager createNotificationUsingNumberOfSeconds:seconds soundName:soundName message:message actionTitle:actionTitle alarmID:message];
+    [HYPLocalNotificationManager createNotificationUsingNumberOfSeconds:seconds
+                                                              soundName:soundName
+                                                                message:message
+                                                            actionTitle:actionTitle
+                                                                alarmID:message];
 
     self.objects = nil;
     [self.tableView reloadData];
