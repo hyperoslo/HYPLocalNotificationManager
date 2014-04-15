@@ -6,7 +6,6 @@
 //
 
 #import "HYPLocalNotificationManager.h"
-@import AVFoundation;
 
 @interface HYPLocalNotificationManager ()
 @end
