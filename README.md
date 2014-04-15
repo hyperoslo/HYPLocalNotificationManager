@@ -5,6 +5,8 @@ Handle local notifications like a pro.
 
 # How to
 
+Adding a notification has never been easier.
+
 ```objc
 - (void)addLocalNotification
 {
